@@ -1,7 +1,7 @@
 *.suo
 *.resx
 
-/JobClassifyer/bin/Debug/*
-/JobClassifyer/bin/Release/*.pdb
-/JobClassifyer/bin/Release/*.xml
-/JobClassifyer/obj/*
+/Pass/bin/Debug/*
+/Pass/bin/Release/*.pdb
+/Pass/bin/Release/*.xml
+/Pass/obj/*
