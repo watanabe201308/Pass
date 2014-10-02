@@ -146,7 +146,10 @@ Module mMainProc
                 cCrypt.EncryptString( _
                     objSetting.strPassword, _
                     cDefs.cConstant.strCryptPassword)
-            objXmlNodeMemo.InnerText = objSetting.strMemo
+            objXmlNodeMemo.InnerText = _
+                cCrypt.EncryptString( _
+                    objSetting.strMemo, _
+                    cDefs.cConstant.strCryptPassword)
 
             objXmlNodeSetting.AppendChild(objXmlNodeName)
             objXmlNodeSetting.AppendChild(objXmlNodeType)
